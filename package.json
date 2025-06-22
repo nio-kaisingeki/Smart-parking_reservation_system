@@ -1,0 +1,15 @@
+{
+  "name": "smart-parking-reservation-system",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^12.17.1"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "cypress run"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
